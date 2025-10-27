@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "question": "How much does it cost to issue the temporary parking permit?",
+        "answer": "It is provided free of charge."
+    },
+    {
+        "id": 1,
+        "question": "What are the renewal and issuance dates?",
+        "answer": "Renewals and new issuances start on January 23, 2023, and end on October 31, 2023."
+    },
+    {
+        "id": 2,
+        "question": "What is the validity period of the temporary parking permit?",
+        "answer": "The permit is valid from the date of issuance until December 31, 2023."
+    },
+    {
+        "id": 3,
+        "question": "Is the issuance process digital?",
+        "answer": "No, the issuance process is not digital."
+    },
+    {
+        "id": 4,
+        "question": "Are there remote service points available?",
+        "answer": "Yes, remote service points are available. Visit https://www.gov.gr/ipiresies/polites-kai-kathemerinoteta/ex-apostaseos-exuperetese-politon/exuperetese-me-telediaskepse-apo-kentro-exupereteses-politon-kep for more information."
+    }
+]

@@ -1,0 +1,70 @@
+[
+    {
+        "id": 0,
+        "question": "What is the special case for your parking request?",
+        "options": [
+            "Disability (AMKA holder)",
+            "Event (cultural/social)",
+            "Professional use",
+            "Other case"
+        ]
+    },
+    {
+        "id": 1,
+        "question": "For how long do you need the temporary parking permit?",
+        "options": [
+            "One day",
+            "One week",
+            "One month"
+        ]
+    },
+    {
+        "id": 2,
+        "question": "In which area do you need the parking permit?",
+        "options": [
+            "Central area",
+            "Residential area",
+            "Professional area"
+        ]
+    },
+    {
+        "id": 3,
+        "question": "Is the vehicle for professional use?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": 4,
+        "question": "Do you require a parking space with a ramp or special infrastructure?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": 5,
+        "question": "Will the permit be used for an event?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": 6,
+        "question": "Have you got a similar permit in the past?",
+        "options": [
+            "Yes",
+            "No"
+        ]
+    },
+    {
+        "id": 7,
+        "question": "How do you want to be informed about the status of your application?",
+        "options": [
+            "Via email",
+            "Via SMS"
+        ]
+    }
+]

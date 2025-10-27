@@ -1,0 +1,50 @@
+{
+    "PublicService": {
+        "name": "Application for Special Case Temporary Parking Permit",
+        "evidence": [
+            {
+                "id": 1,
+                "evs": [
+                    {
+                        "id": "ev0001",
+                        "type": "Evidence",
+                        "name": "Application form by applicant or authorized person",
+                        "description": "A completed application form stating the special case for temporary parking (e.g. disability, event, professional use, etc.)"
+                    },
+                    {
+                        "id": "ev0002",
+                        "type": "Evidence",
+                        "name": "Copy of Identity Card",
+                        "description": "Photocopy of the applicant's or authorized person's identification card"
+                    },
+                    {
+                        "id": "ev0003",
+                        "type": "Evidence",
+                        "name": "Proof of status (e.g. disability certificate, event permit, proof of professional activity)",
+                        "description": "Corresponding supporting document certifying special status (disability, event, professional, etc.)"
+                    },
+                    {
+                        "id": "ev0004",
+                        "type": "Evidence",
+                        "name": "Proof of residence or business address",
+                        "description": "Bill or other document showing permanent residence or business location"
+                    }
+                ]
+            }
+        ],
+        "criterion_requirements": [
+            {
+                "id": "cr0001",
+                "name": "Belonging to a special category (Disability, Event, Professional use, etc.)"
+            },
+            {
+                "id": "cr0002",
+                "name": "Legal representative/beneficiary"
+            },
+            {
+                "id": "cr0003",
+                "name": "Documents proving the application statement"
+            }
+        ]
+    }
+}
