@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "question": "What is your age group?",
+    "options": ["Under 18", "18–65", "Over 65"],
+    "next": [2, 2, 2]
+  },
+  {
+    "id": 2,
+    "question": "Do you have an official disability certification (KEPA) of 67% or above?",
+    "options": ["Yes", "No"],
+    "next": [3, "ineligible_disability"]
+  },
+  {
+    "id": 3,
+    "question": "What is your income status?",
+    "options": [
+      "Individual income < 23,000€ or family income < 29,000€ (OPEKA allowance not included)",
+      "Individual or family income greater than above"
+    ],
+    "next": [4, "ineligible_income"]
+  },
+  {
+    "id": 4,
+    "question": "Will you use the card for your companion as well?",
+    "options": ["Yes", "No"],
+    "next": [5, 5]
+  },
+  {
+    "id": 5,
+    "question": "How would you prefer to submit your application?",
+    "options": ["Digitally", "In person at a KEP (service center)"],
+    "next": ["not_implemented_digital", 6]
+  },
+  {
+    "id": 6,
+    "question": "Eligibility result",
+    "options": [],
+    "next": ["eligible"],
+    "result": "eligible"
+  },
+  {
+    "id": "ineligible_disability",
+    "result": "ineligible",
+    "message": "You are not entitled to a transportation card for disabled as you do not meet the minimum disability percentage.",
+    "required_documents": []
+  },
+  {
+    "id": "ineligible_income",
+    "result": "ineligible",
+    "message": "You are not entitled due to higher income.",
+    "required_documents": []
+  },
+  {
+    "id": "not_implemented_digital",
+    "result": "redirect",
+    "message": "Digital application submission is not yet supported. Please proceed in person at a KEP (service center)."
+  },
+  {
+    "id": "eligible",
+    "result": "eligible",
+    "message": "You are eligible for a free transportation card for the disabled.",
+    "required_documents": [
+      "Application form of the interested party or guardian",
+      "ID card (or copy)",
+      "Sworn declaration (permanent address)",
+      "2 recent color photographs",
+      "Official KEPA disability certificate (≥67%)",
+      "Companion's certificate (if applicable)",
+      "Additional documents if receiving OPEKA allowance"
+    ]
+  }
+]
